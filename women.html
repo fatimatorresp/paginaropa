@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- ajuste automáticamente al ancho del dispositivo y controle el nivel de zoom inicia -->
+
+</head>
+<body>
+  <header>
+    <h1>Tienda de Ropa</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="women.html">Ropa de Mujer</a></li>
+        <li><a href="men.html">Ropa de Hombre</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+<div class="ropas">
+     
+  <div class="product">
+        <img src="imagenes/vestido3.webp">
+        <h2>Vestido Blanco</h2>
+        <p id="precio">
+          $1235
+          </p>
+        <button class="add-to-cart" onclick="addToCart('Vestido Blanco', 'mujer')">Agregar al Carrito</button>
+  </div>
+  <div class="product1">
+      <img src="imagenes/vestido2.webp">
+      <h2>Vestido Verde</h2>
+      <p id="precio">
+        $1300
+        </p>
+      <button class="add-to-cart" onclick="addToCart('Vestido Verde', 'mujer')">Agregar al Carrito</button>
+  </div>
+  <div class="product2">
+    <img src="imagenes/jogger2.webp">
+    <h2>Campera de Mujer </h2>
+    <p id="precio">
+      $2000
+      </p>
+    <button class="add-to-cart" onclick="addToCart('Campera de Mujer', 'mujer')">Agregar al Carrito</button>
+  </div>
+  <div class="product3">
+    <img src="imagenes/conjuntomujer.webp">
+    <h2>Conjunto de Mujer</h2>
+    <p id="precio">
+      $3500
+      </p>
+    <button class="add-to-cart" onclick="addToCart('Conjunto de Mujer', 'mujer')">Agregar al Carrito</button>
+  </div>
+
+</div>
+</section>
+
+  <aside class="cart">
+    <!-- Agrega el contenido del carrito aquí -->
+  </aside>
+
+
+</body>
+<script src="script.js"></script>
+</html>

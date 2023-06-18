@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- ajuste automáticamente al ancho del dispositivo y controle el nivel de zoom inicia -->
+  
+</head>
+<body>
+  <header>
+    <h1>Tienda de Ropa</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="women.html">Ropa de Mujer</a></li>
+        <li><a href="men.html">Ropa de Hombre</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+<div class="ropasHombre">
+     
+  <div class="producto">
+        <img src="imagenes/buzohombre.webp">
+        <h2>Buzo Negro</h2>
+        <p id="precio">
+          $1345
+          </p>
+        <button class="add-to-cart" onclick="addToCart('Buzo Negro', 'Hombre')">Agregar al Carrito</button>
+  </div>
+  <div class="producto1">
+      <img src="imagenes/joggerhombre.webp">
+      <h2>Jogger Hombre</h2>
+      <p id="precio">
+        $1300
+        </p>
+      <button class="add-to-cart" onclick="addToCart('Jogger', 'Hombre')">Agregar al Carrito</button>
+  </div>
+  <div class="producto2">
+    <img src="imagenes/joggerhombre2.webp">
+    <h2>Jogger Tipo Jean </h2>
+    <p id="precio">
+      $2500
+      </p>
+    <button class="add-to-cart" onclick="addToCart('Jogger', 'Hombre')">Agregar al Carrito</button>
+  </div>
+  <div class="producto3">
+    <img src="imagenes/remera3.webp">
+    <h2>Remera Hombrer</h2>
+    <p id="precio">
+      $3500
+      </p>
+    <button class="add-to-cart" onclick="addToCart('Remera', 'Hombre')">Agregar al Carrito</button>
+  </div>
+
+</div>
+</section>
+
+  <aside class="cart">
+    <!-- Agrega el contenido del carrito aquí -->
+  </aside>
+
+
+</body>
+<script src="script.js"></script>
+</html>
